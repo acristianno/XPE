@@ -1,0 +1,21 @@
+<html>
+    <script>
+        function somaMultiplos3ou5(numero){
+            var resultado = 0;
+            var soma = 0;
+            for (var i = 1; resultado < numero; i++){
+                resultado = i * 3
+                if (resultado < numero) {
+                    soma = soma + resultado;
+                    if (i * 5 < numero) {
+                    soma = soma + i * 5;
+                    }
+                    if (resultado % 3 == 0 & resultado % 5 == 0){
+                        soma = soma - resultado
+                    }
+                }              
+            }
+            return soma;
+        }
+    </script>
+</html>
