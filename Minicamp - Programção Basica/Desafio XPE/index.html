@@ -5,32 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Xp Mini Calculadora</title>
+    <title>Super calculadora</title>
   </head>
   <body>
     <header>
-      <h1>Mini calculadora</h1>
+      <h1>Super calculadora</h1>
       <div class="inputCnt">
         <label for="primeiroNumero">Primeiro número (A)</label>
         <input type="number" name="primeiroNumero" id="primeiroNumero" />
         <label for="segundoNumero">Segundo número (b)</label>
         <input type="number" name="segundoNumero" id="segundoNumero" />
-        <input id="botaoCalcular" type="button" value="" />
+        <button onclick="calcular()" id="botaoCalcular" type="button">Calcular</button>
       </div>
     </header>
     <main>
-      <div class="calculoCnt">
-        <p class="calculoNome">Soma</p>
-        <p class=""></p>
-      </div>
-      <div class="calculoCnt">
-        <p class="calculoNome">Raiz quadrada</p>
-        <p class=""></p>
-      </div>
-      <div class="calculoCnt">
-        <p class="calculoNome">Porcentagem</p>
-        <p class=""></p>
-      </div>
+        <div class="calculoCnt">
+          <p class="calculoNome">Soma</p>
+          <p id="soma"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="calculoNome">Subtração A - B</p>
+          <p id="subtracaoab"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="calculoNome">Subtração B - a</p>
+          <p id="subtracaoba"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="calculoNome">Multiplicação</p>
+          <p id="muntiplicacao"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="calculoNome">Divisão a/b</p>
+          <p id="divisaoab"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="calculoNome">Divisão b/a</p>
+          <p id="divisaoba"></p>
+        </div>
     </main>
     <script src="script.js"></script>
   </body>
