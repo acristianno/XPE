@@ -1,0 +1,10 @@
+Arquitetura de Software
+
+"Uma arquitetura é o conjunto de decisões significativas sobre a organização de um
+sistema de software, a seleção de elementos estruturais e suas interfaces, juntamente
+com o comportamento especificado nas colaborações entre estes elementos, a composição 
+destes elementos em subsistemas progressivamente maiores e o estilo arquiterural que 
+guia esta organização." (The Rational Unified Process: An Introduction)
+
+* Arquitetura identifica a estrutura de um sistema de software e tem como objetivo
+ser o elo entre o desenvolvimento e os requisitos.
